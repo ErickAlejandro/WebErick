@@ -1,0 +1,242 @@
+body{
+    /*ROMADO DE UIGRADIENTS*/
+    background-color: black;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='42' height='58' viewBox='0 0 42 58'%3E%3Cg fill='%23005a4b' fill-opacity='0.2'%3E%3Cpath fill-rule='evenodd' d='M12 18h12v18h6v4H18V22h-6v-4zm-6-2v-4H0V0h36v6h6v36h-6v4h6v12H6v-6H0V16h6zM34 2H2v8h24v24h8V2zM6 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM2 50h32v-8H10V18H2v32zm28-6a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm0-8a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm0-8a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm0-8a2 2 0 1 0 0 4 2 2 0 0 0 0-4z'/%3E%3C/g%3E%3C/svg%3E");
+        font-size: 16px;
+        
+/*Usando google Fonsts*/
+        font-family: 'Courgette', cursive;
+}
+
+.col-lg-12 {
+    width: 40%;
+    margin: 20px ;
+}
+
+.animate__animated{
+    width: 60%;
+}
+
+
+.col{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* PARA LA CARTA DE PRESENTACION***/
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+.card#one{
+	position : relative;
+	height: 450px;
+	width: 900px;
+	margin : 200px auto;
+	background-color : #FFF;
+	-webkit-box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
+}
+
+.thumbnail {
+	float : left; 
+	left : 10px;
+	top : -30px;
+	height : 600px;
+	width : 530px;
+	-webkit-box-shadow: 530px 353px 60px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 530px 353px 60px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 60px 0px rgba(0,0,0,0.75);
+	overflow: initial;
+    object-fit: cover;
+    object-position: center;
+}
+img.left{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	height: auto;
+	width: 100%;
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+.right{
+	margin-left : 590px;
+	margin-right : 20px;
+}
+
+h1{
+	padding-top : 15px;
+	font-size : 1.3rem;
+	color : #4B4B4B;
+}
+.author{
+	background-color : #9ECAFF;
+	height : 30px;
+	width : 150px;
+	border-radius : 10px;
+}
+
+.author>img{
+	padding-top : 5px;
+	margin-left : 7px;
+	float : left;
+	height : 28px;
+	width : 26px;
+	border-radius : 50%;
+}
+
+h2.er{
+	padding-top : 8px;
+	margin-right : 6px;
+	text-align : right;
+	font-size : 0.8rem;
+	color :white;
+}
+
+.separator{
+	margin-top : 10px;
+	border : 1px solid #C3C3C3;
+}
+
+p.animate__animated.animate__backInUp{
+	text-align: justify;
+	padding-top : 10px;
+	font-size : 0.95rem;
+	line-height: 150%;
+	color : #4B4B4B;
+}
+
+h5{
+	position : absolute;
+	left : 30px;
+	bottom : -120px;
+	font-size : 6rem;
+	color : #C3C3C3;
+}
+
+h6{
+	position : absolute;
+	left : 30px;
+	bottom : -55px;
+	font-size : 2rem;
+	color : #C3C3C3;
+}
+
+ul.parr{
+	margin-left : 250px;
+}
+
+li{
+	display: inline;
+	list-style: none;
+	padding-right: 40px;
+	color : #7B7B7B;
+}
+
+.fab#two{
+	position : absolute;
+	right : 50px;
+	bottom : -40px;
+	box-sizing: border-box;
+	padding-top: 18px;
+	background-color : #1875D0;
+	width : 80px;
+	height : 80px;
+	color : white;
+	text-align : center;
+	border-radius : 50%;
+	-webkit-box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.75);
+}
+
+/**GALERIA DE FOTOS**/
+
+div.stage
+div.img
+div.ring{
+	width:100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	user-select:none;
+}
+
+.container.imagen {
+	perspective: 2000px;
+	width: 300px;
+	height: 400px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+  }
+
+
+
+
+/**RESOULCION PARA EL FORMULARIO*/
+
+@media(max-width: 950px){
+	div.row{
+		width: 700px;
+		height: 700px;
+	}
+
+	div.card#one{
+		position : relative;
+		height: 750px;
+		width: 330px;
+		margin : 200px auto;
+		background-color : #FFF;
+	
+		}
+	
+		img.left{
+			padding-bottom: 90px;
+			left: 50px;
+			top: auto;
+			height: 200px;
+			width: 170px;
+		}
+	
+		.right{
+			margin-left : 150px;
+			margin-right : 20px;
+		}
+
+}
+
+@media(max-width: 500px){
+	div.row{
+		width: 500px;
+		height: 500px;
+	}
+
+	div.card#one{
+	position : relative;
+	height: 750px;
+	width: 330px;
+	margin : 200px auto;
+	background-color : #FFF;
+
+	}
+
+	img.left{
+		padding-bottom: 90px;
+		left: 50px;
+		top: auto;
+		height: 200px;
+		width: 170px;
+	}
+
+	.right{
+		margin-left : 150px;
+		margin-right : 20px;
+	}
+
+}
+

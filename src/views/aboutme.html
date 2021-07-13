@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+
+    <!--LLAMADO DEL HEAD-->
+    <%- include('partials/head.html') %>
+</head>
+
+<body>
+    <!--IMPLEMENTACION Y LLAMADO DEL PAQUETE QUE GUARDA EL NAVBAR-->
+    <%- include('partials/navigation.html') %>
+
+        <!--CREACION DE LA FICHA-->
+        <div class="card" id="one">
+            <div class="thumbnail animate__animated animate__backInLeft "><img class="left " src="/img/developer.jpg" />
+            </div>
+            <div class="right">
+                <h1>Learn a little more about me...</h1>
+                <div class="author"><img src="/img/Perfil.jpeg" />
+                    <h2 class="er">Develper Erick</h2>
+                </div>
+                <div class="separator"></div>
+                <p class="animate__animated animate__backInUp">Mi nombre completo es: Erick Alejandro Ayala churo; soy
+                    un aficionado de la tecnologia, dispositivos, videojuevos, programacion y diseno. Tengo habilidades
+                    con Javascript, nodeJs, Sql, MySql, GO, html,entre otros mas.</p>
+            </div>
+
+            <!--LISTA DE ICONOS-->
+            <ul class="parr">
+                <li><i class="fa fa-eye fa-2x"></i></li>
+                <li><i class="fa fa-heart-o fa-2x"></i></li>
+                <li><i class="fa fa-envelope-o fa-2x"></i></li>
+                <li><i class="fa fa-share-alt fa-2x"></i></li>
+            </ul>
+            <div class="fab" id="two"><i class="fa fa-arrow-down fa-3x"> </i></div>
+        </div>
+
+
+        <!--CODIGO PARA LA INCLUSION DEL FOOTER -->
+        <%- include('partials/footer.html') %>
+</body>
+
+</html>
